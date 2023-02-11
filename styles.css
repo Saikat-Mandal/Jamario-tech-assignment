@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-items {
+  background-color: rgb(28, 28, 112);
+  padding: 0.2em 1em 0.2em 1em;
+  border-radius: 3rem;
+}
+
+.blog-section {
+  background-color: #0e0e3a;
+}
+
+#doggo {
+  border: 1rem solid rgb(28, 28, 112);
+}
+
+.doggo-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  padding: 1.5rem;
+  color: white;
+}
+
+.parent {
+  width: 90%;
+  margin: auto;
+}
+
+.about-para {
+  font-family: "Roboto + Mono", sans-serif;
+  letter-spacing: 2;
+}
+
+.post-div {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .post-div {
+    flex-direction: column;
+  }
+}
